@@ -8,6 +8,10 @@
   Index sheet for ePortfolio
   */
 
+  body {
+    height: 900px;
+  }
+ 
 
 article#aboutMe {
   background: rgb(240,240,240);
