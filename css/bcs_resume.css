@@ -48,6 +48,10 @@ section#education {
   padding: 10px;
 }
 
+body {
+  height: 1000px;
+}
+
 div {
   float:left;
   width:48%

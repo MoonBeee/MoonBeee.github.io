@@ -8,10 +8,7 @@
   Index sheet for ePortfolio
   */
 
-  body {
-    height: 900px;
-  }
- 
+
 
 article#aboutMe {
   background: rgb(240,240,240);
@@ -88,6 +85,9 @@ body {
 
 /*destops*/
 @media only screen and (min-width: 769px) {
-	
+	  body {
+    height: 930px;
+  }
+ 
  
 }  

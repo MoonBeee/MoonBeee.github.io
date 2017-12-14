@@ -81,6 +81,8 @@ h2 {
 
 /*destops*/
 @media only screen and (min-width: 769px) {
-	
+	body {
+    height:700px;
+  }
  
 }  
