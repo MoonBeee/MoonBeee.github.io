@@ -9,6 +9,10 @@
   Skills sheet for ePortfolio
   */
   
+  body {
+    height: 800px;
+  }
+  
 img#skillHeader {
   width:100%;
 }
