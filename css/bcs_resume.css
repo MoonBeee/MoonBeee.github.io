@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/*-- Styles CSS file
+
+  Author: Bryan Sauve
+  Date: December 7th 2017
+
+  Styles sheet for ePortfolio
+  */
+  
+  
+h1 {
+  font-size: 3em;
+  text-align: center;
+  width:100%;
+  font-family: georgia;
+  padding-bottom:10px;
+  text-shadow: 1px 1px rgb(255,255,255);
+}
+
+h2 {
+  font-size: 1.5em;
+  text-shadow: 1px 1px rgb(0,0,0);
+  line-height: 130%;
+}
+section#education, section#workHistoryOne, section#workHistoryTwo {
+   height: 215px;
+}
+
+section#education a, a:hover + a:active + a:visited {
+ color: rgb(230,230,0);
+}
+
+section#workHistoryOne a, a:hover + a:active + a:visited {
+  color: rgb(230,230,0);
+}
+
+section#workHistoryTwo a, a:hover + a:active + a:visited {
+ color: rgb(230,230,0);
+} 
+ 
+section#education {
+  background: rgb(150,150,150);
+  line-height:120%;
+  width: 98%;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+div {
+  float:left;
+  width:48%
+}
+
+div#resume2 {
+  float:left;
+  width:48%
+}
+
+img.resume {
+  float: right;
+  width: 47%;
+  height:100%;
+  margin: 2px;
+  background: rgb(90,90,90);
+}
+
+img#resumeImage2 {
+  float: left;
+}
+img#resumeImage3 {
+  float: right;
+}
+
+
+section#workHistoryOne {
+  background: rgb(150,150,150);
+  line-height:120%;
+  width: 98%;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+section#workHistoryTwo {
+  background: rgb(150,150,150);
+  line-height:120%;
+  width: 98%;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*for mobiles device*/
+@media only screen and (max-width: 480px) {
+  
+ img.resume {
+   display: none;
+ }
+ 
+ div {
+   width: 95%;
+ }
+ 
+ div#resume2 {
+   width:95%;
+ }
+ 
+ body {
+   height: 1000px;
+ }
+  
+}  
+
+/*for tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+ 
+ 
+  
+}
+
+/*destops*/
+@media only screen and (min-width: 769px) {
+	
+ 
+}  

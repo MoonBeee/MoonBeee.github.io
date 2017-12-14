@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*-- Styles CSS file
+
+  Author: Bryan Sauve
+  Date: December 7th 2017
+
+  Index sheet for ePortfolio
+  */
+
+
+article#aboutMe {
+  background: rgb(240,240,240);
+  width:50%;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+article#aboutMe h1 {
+  text-align: left;
+  font-size: 2.5em;
+  width: 100%;
+  background:black;
+  color: yellow;
+  font-family: georgia;
+  margin-bottom:5px;
+}
+
+article#aboutMe h2 {
+  text-align: left;
+  font-size: 1.5em;
+  width: 100%;
+  background:rgb(45,45,45);
+  color: white;
+}
+
+img#profilePicture {
+  background: gray;
+  width:45%;
+  margin: 10px;
+  float: right;
+}
+
+
+/*for mobiles device*/
+@media only screen and (max-width: 480px) {
+  
+  article#aboutMe {
+  background: rgb(240,240,240);
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+  
+  img#profilePicture {
+  display: none;
+}
+
+  article#aboutMe h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+body {
+  height: 1000px;
+}
+  
+}  
+
+/*for tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+  article#aboutMe {
+  width: 49%;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 5px;
+}
+  
+ 
+  
+}
+
+/*destops*/
+@media only screen and (min-width: 769px) {
+	
+ 
+}  

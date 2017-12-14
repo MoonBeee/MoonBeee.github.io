@@ -1,0 +1,8 @@
+creative commons flickr - minimuim licensing images
+lorem excusm - makes fake font for filler
+
+jquery to get Javascript code
+
+
+Place images in seperate directory
+Place css in seperate directory
