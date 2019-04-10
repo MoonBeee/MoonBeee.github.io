@@ -1,8 +1,87 @@
+/* ID'd Elements */
+
+p{
+  font-size: 1em;
+}
+
+#body{
+    margin-top:10px;
+}
+
+#header-container{
+  margin: 5px 0px 5px 0px;
+  width: 80vw;
+  justify-content:space-around;
+}
+
+#header-blob {
+  text-align: left;
+  flex-shrink: 1;
+  padding-top: 3em;
+}
+
+#headshot{
+  margin:0;
+  padding:0;
+  border-radius: 200px;
+}
+
+#headshot-div{
+  display:flex;
+  justify-content: flex-end;
+  flex-shrink: 2;
+}
+
+/* Classed Elements */
 .formElement{
     width: 100%;
     border-radius: 10px 10px 10px 10px;
 }
 
-#body{
-    margin-top:10px;
+.bg-primary{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5vw;
+  padding-bottom: 5px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-container-horizontal{
+  flex-direction: row;
+}
+
+.flex-container-vertical{
+  flex-direction: column;
+}
+
+.flex-item{
+  display:flex;
+}
+
+.lead{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  #headshot-div{
+    display:none;
+  }
+
+  .bg-primary{
+    padding-top: 6vw;
+  }
+
+} /* End of Mediaquery for tablets */
+
+@media only screen and (max-width: 720px) {
+
+  #header-container {
+    display: none;
+  }
+
 }
