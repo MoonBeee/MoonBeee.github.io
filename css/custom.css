@@ -85,3 +85,9 @@ p{
   }
 
 }
+
+@media only screen and (max-width: 320){
+  #headshot {
+    border-radius: 200px;
+  }
+}
