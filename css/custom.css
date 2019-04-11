@@ -38,6 +38,10 @@ p{
   -moz-border-radius: 50%;
 }
 
+#mobile-header {
+  display: none;
+}
+
 #skillset-container {
   display: flex;
   flex-flow: row wrap;
@@ -80,13 +84,10 @@ p{
 
 @media only screen and (max-width: 1024px) {
 
-  /* #headshot-div{
+  #headshot-div{
     display:none;
   }
 
-  .bg-primary{
-    padding-top: 6vw;
-  } */
 
   #header-container {
     margin-top: 5vw;
@@ -96,6 +97,10 @@ p{
 
   #header-text {
     display: none;
+  }
+
+  #mobile-header {
+    display: flex;
   }
 
 } /* End of Mediaquery for tablets */
