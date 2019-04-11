@@ -4,7 +4,7 @@ p{
   font-size: 1em;
 }
 
-#body{
+body{
     margin-top:10px;
 }
 
@@ -49,6 +49,7 @@ p{
 }
 
 #skillset-container em {
+  color: blue;
   display: flex;
   font-weight: bolder;
   width:10vw;
@@ -90,7 +91,7 @@ p{
 
 
   #header-container {
-    margin-top: 5vw;
+    margin-top: 10vw;
     flex-direction: column;
     align-items: center;
   }
