@@ -49,11 +49,13 @@ body{
 }
 
 #skillset-container em {
-  color: blue;
   display: flex;
   font-weight: bolder;
-  width:10vw;
+  justify-content: center;
+  min-width: 8vw;
   margin: 2px 2px 10px 2px;
+  text-align: center;
+  width:15vw;
 }
 
 #samples-container {
@@ -86,13 +88,15 @@ body{
 
 .worksample-btn {
   align-content: center;
-  justify-content: center;
+  box-shadow: 2px 5px grey;
   background-color: darkgrey;
+  color: black;
   border-radius: 0 10px 10px 0;
   display: flex;
   height: 1000px;
+  justify-content: center;
   margin: 10px 0 0 0 ;
-  opacity: 30%;
+  opacity: 0.5;
   text-align: center;
 }
 
@@ -111,6 +115,10 @@ body{
 .lead{
   display: flex;
   justify-content: flex-end;
+}
+
+.icon {
+  font-size: 3vw;
 }
 
 @media only screen and (max-width: 1024px) {
