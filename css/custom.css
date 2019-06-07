@@ -70,7 +70,11 @@ body{
   height: 30vw;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 5vw;
+  margin-top: 4vw;
+}
+
+#worksample-view-container {
+
 }
 
 /* Classed Elements */
@@ -87,16 +91,21 @@ body{
 }
 
 .worksample-btn {
-  align-content: center;
   box-shadow: 2px 5px grey;
   background-color: darkgrey;
-  color: black;
   border-radius: 0 10px 10px 0;
+  color: black;
   display: flex;
+  font-size: 1.5vw;
   height: 1000px;
   justify-content: center;
   margin: 10px 0 0 0 ;
-  opacity: 0.5;
+  opacity: 0.7;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -119,6 +128,34 @@ body{
 
 .icon {
   font-size: 3vw;
+}
+
+.sample-container {
+  margin-top: 35px;
+}
+
+.worksample-view-div {
+  display: flex;
+}
+
+.worksample-view-text-div {
+  width: 80%;
+}
+
+.worksample-view-image-div {
+  width: 20%;
+  margin: 10px 30px;
+
+}
+
+.worksample-images {
+  width: 30vw;
+  display: inline;
+  box-shadow: 5px 5px #888888;
+}
+
+.skills-tag {
+  color: blue;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -159,6 +196,9 @@ body{
 
 @media only screen and (max-width: 720px) {
 
+  .icon {
+    font-size: 5vw;
+  }
 
 }
 
